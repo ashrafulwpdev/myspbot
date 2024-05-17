@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-APP_ACCESS_TOKEN = 'git'
+APP_ACCESS_TOKEN = 'db4e9f649cbe765cd59888b141e1b92e'
 VERIFY_TOKEN = 'YhQw8qN6RmBUUOQ'
 CRYPTO_API_URL = 'https://api.coingecko.com/api/v3'
 COINMARKETCAP_API_URL = 'https://pro-api.coinmarketcap.com/v1'
