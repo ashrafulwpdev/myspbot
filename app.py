@@ -3,6 +3,9 @@ import requests
 
 app = Flask(__name__)
 
+# Version number
+VERSION = "1.0.0"
+
 APP_ACCESS_TOKEN = 'db4e9f649cbe765cd59888b141e1b92e'
 VERIFY_TOKEN = 'YhQw8qN6RmBUUOQ'
 CRYPTO_API_URL = 'https://api.coingecko.com/api/v3'
@@ -153,4 +156,5 @@ def webhook():
 
 
 if __name__ == '__main__':
+    print(f"Starting Facebook Messenger bot version {VERSION}")
     app.run(debug=False)
