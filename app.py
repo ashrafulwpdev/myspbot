@@ -8,7 +8,7 @@ VERIFY_TOKEN = 'YhQw8qN6RmBUUOQ'
 CRYPTO_API_URL = 'https://api.coingecko.com/api/v3'
 COINMARKETCAP_API_URL = 'https://pro-api.coinmarketcap.com/v1'
 COINMARKETCAP_API_KEY = '1f3c28d5-97e7-4aa3-b765-d4e9ed661e14'  # Replace with your CoinMarketCap API key
-admins = '100031096454833'her
+admins = '100031096454833'
 is_bot_active = True
 user_wallets = {}
 
